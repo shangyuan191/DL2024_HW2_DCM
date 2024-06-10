@@ -1,0 +1,277 @@
+2024-06-10 14:24:25,380 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 14:24:25,380 - MyLogger - INFO - Batch size: 64
+2024-06-10 14:24:25,380 - MyLogger - INFO - num workers: 8
+2024-06-10 14:24:25,382 - MyLogger - INFO - target channel : RGB
+2024-06-10 14:24:25,382 - MyLogger - INFO - Channel method : DIY
+2024-06-10 14:24:44,547 - MyLogger - INFO - Epoch 1/10 for target channel RGB
+2024-06-10 14:25:37,341 - MyLogger - INFO - Training loss: 3.317241667323182
+2024-06-10 14:25:38,186 - MyLogger - INFO - Validation loss: 3.4140874650743274, Validation accuracy: 0.11777777777777777
+2024-06-10 14:25:38,186 - MyLogger - INFO - Epoch 2/10 for target channel RGB
+2024-06-10 14:26:30,176 - MyLogger - INFO - Training loss: 2.710940708637802
+2024-06-10 14:26:30,979 - MyLogger - INFO - Validation loss: 2.8278555976019963, Validation accuracy: 0.25555555555555554
+2024-06-10 14:26:30,980 - MyLogger - INFO - Epoch 3/10 for target channel RGB
+2024-06-10 14:27:23,114 - MyLogger - INFO - Training loss: 2.357842553967409
+2024-06-10 14:27:23,975 - MyLogger - INFO - Validation loss: 2.331751594543457, Validation accuracy: 0.3422222222222222
+2024-06-10 14:27:23,976 - MyLogger - INFO - Epoch 4/10 for target channel RGB
+2024-06-10 14:28:16,057 - MyLogger - INFO - Training loss: 2.1200459933440956
+2024-06-10 14:28:16,957 - MyLogger - INFO - Validation loss: 2.28804197523329, Validation accuracy: 0.35333333333333333
+2024-06-10 14:28:16,957 - MyLogger - INFO - Epoch 5/10 for target channel RGB
+2024-06-10 14:29:09,157 - MyLogger - INFO - Training loss: 1.9561350677496259
+2024-06-10 14:29:09,947 - MyLogger - INFO - Validation loss: 2.1651962931950886, Validation accuracy: 0.3888888888888889
+2024-06-10 14:29:09,947 - MyLogger - INFO - Epoch 6/10 for target channel RGB
+2024-06-10 14:30:01,927 - MyLogger - INFO - Training loss: 1.8299608402688938
+2024-06-10 14:30:02,726 - MyLogger - INFO - Validation loss: 2.018462610244751, Validation accuracy: 0.41333333333333333
+2024-06-10 14:30:02,727 - MyLogger - INFO - Epoch 7/10 for target channel RGB
+2024-06-10 14:30:54,700 - MyLogger - INFO - Training loss: 1.743171511042791
+2024-06-10 14:30:55,576 - MyLogger - INFO - Validation loss: 1.8600383321444194, Validation accuracy: 0.46444444444444444
+2024-06-10 14:30:55,576 - MyLogger - INFO - Epoch 8/10 for target channel RGB
+2024-06-10 14:31:47,537 - MyLogger - INFO - Training loss: 1.6556313335589632
+2024-06-10 14:31:48,368 - MyLogger - INFO - Validation loss: 1.7216594343715244, Validation accuracy: 0.5
+2024-06-10 14:31:48,368 - MyLogger - INFO - Epoch 9/10 for target channel RGB
+2024-06-10 14:32:40,227 - MyLogger - INFO - Training loss: 1.5964421124332187
+2024-06-10 14:32:41,038 - MyLogger - INFO - Validation loss: 1.6997014013926188, Validation accuracy: 0.4888888888888889
+2024-06-10 14:32:41,038 - MyLogger - INFO - Epoch 10/10 for target channel RGB
+2024-06-10 14:33:33,021 - MyLogger - INFO - Training loss: 1.5350406169985482
+2024-06-10 14:33:33,838 - MyLogger - INFO - Validation loss: 1.9231377267837524, Validation accuracy: 0.4777777777777778
+2024-06-10 14:33:34,710 - MyLogger - INFO - Test loss: 1.7422793420155842, Test accuracy: 0.5088888888888888
+2024-06-10 14:33:34,711 - MyLogger - INFO - Channel method : sigmoid
+2024-06-10 14:33:53,327 - MyLogger - INFO - Epoch 1/10 for target channel RGB
+2024-06-10 14:34:45,158 - MyLogger - INFO - Training loss: 3.3881184665967576
+2024-06-10 14:34:46,008 - MyLogger - INFO - Validation loss: 5.674217817518446, Validation accuracy: 0.07111111111111111
+2024-06-10 14:34:46,008 - MyLogger - INFO - Epoch 2/10 for target channel RGB
+2024-06-10 17:45:51,952 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 17:45:51,952 - MyLogger - INFO - Batch size: 64
+2024-06-10 17:45:51,952 - MyLogger - INFO - num workers: 8
+2024-06-10 17:45:51,953 - MyLogger - INFO - target channel : RGB
+2024-06-10 17:45:51,953 - MyLogger - INFO - Channel method : DIY
+2024-06-10 17:45:53,876 - MyLogger - INFO - Epoch 1/5 for target channel RGB
+2024-06-10 17:47:17,800 - MyLogger - INFO - Batch size: 64
+2024-06-10 17:47:17,800 - MyLogger - INFO - num workers: 8
+2024-06-10 17:47:17,801 - MyLogger - INFO - target channel : RGB
+2024-06-10 17:47:17,801 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 17:47:17,801 - MyLogger - INFO - Channel method : DIY
+2024-06-10 17:47:19,506 - MyLogger - INFO - Epoch 1/5 for target channel RGB
+2024-06-10 17:48:12,990 - MyLogger - INFO - Training loss: 3.374588867395328
+2024-06-10 17:48:13,791 - MyLogger - INFO - Validation loss: 3.4304237111409503, Validation accuracy: 0.1111111111111111
+2024-06-10 17:48:13,791 - MyLogger - INFO - Epoch 2/5 for target channel RGB
+2024-06-10 17:49:09,308 - MyLogger - INFO - Training loss: 2.796058599236357
+2024-06-10 17:49:10,216 - MyLogger - INFO - Validation loss: 2.813563323550754, Validation accuracy: 0.24222222222222223
+2024-06-10 17:49:10,216 - MyLogger - INFO - Epoch 3/5 for target channel RGB
+2024-06-10 17:49:44,678 - MyLogger - INFO - Batch size: 64
+2024-06-10 17:49:44,678 - MyLogger - INFO - num workers: 8
+2024-06-10 17:49:44,680 - MyLogger - INFO - target channel : RGB
+2024-06-10 17:49:44,680 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 17:49:44,680 - MyLogger - INFO - Channel method : DIY
+2024-06-10 17:49:46,686 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 17:50:41,224 - MyLogger - INFO - Training loss: 3.3379727691969663
+2024-06-10 17:50:42,084 - MyLogger - INFO - Validation loss: 4.107029549280802, Validation accuracy: 0.1288888888888889
+2024-06-10 17:50:42,085 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 17:51:34,145 - MyLogger - INFO - Training loss: 2.7377418141302927
+2024-06-10 17:51:35,123 - MyLogger - INFO - Validation loss: 2.721296961572435, Validation accuracy: 0.24666666666666667
+2024-06-10 17:51:35,985 - MyLogger - INFO - Test loss: 2.705368643866645, Test accuracy: 0.26666666666666666
+2024-06-10 17:52:54,236 - MyLogger - INFO - Batch size: 64
+2024-06-10 17:52:54,236 - MyLogger - INFO - num workers: 8
+2024-06-10 17:52:54,239 - MyLogger - INFO - target channel : RGB
+2024-06-10 17:52:54,239 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 17:52:54,239 - MyLogger - INFO - Channel method : DIY
+2024-06-10 17:52:56,391 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 17:53:54,546 - MyLogger - INFO - Training loss: 3.390496634330102
+2024-06-10 17:53:56,156 - MyLogger - INFO - Validation loss: 3.362543504503038, Validation accuracy: 0.15333333333333332
+2024-06-10 17:53:56,157 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 17:54:50,494 - MyLogger - INFO - Training loss: 2.796484697660438
+2024-06-10 17:54:51,713 - MyLogger - INFO - Validation loss: 2.955728743871053, Validation accuracy: 0.21777777777777776
+2024-06-10 17:54:53,008 - MyLogger - INFO - Test loss: 2.888909683227539, Test accuracy: 0.22444444444444445
+2024-06-10 17:54:53,670 - MyLogger - INFO - Channel method : sigmoid
+2024-06-10 17:54:54,185 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 17:55:46,946 - MyLogger - INFO - Training loss: 3.3555467279617184
+2024-06-10 17:55:48,274 - MyLogger - INFO - Validation loss: 3.185722770690918, Validation accuracy: 0.1511111111111111
+2024-06-10 17:55:48,274 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 17:56:40,752 - MyLogger - INFO - Training loss: 2.7602040701405692
+2024-06-10 17:56:42,077 - MyLogger - INFO - Validation loss: 3.9753359418445164, Validation accuracy: 0.1622222222222222
+2024-06-10 17:56:43,105 - MyLogger - INFO - Test loss: 3.8703127479553223, Test accuracy: 0.13333333333333333
+2024-06-10 17:56:43,373 - MyLogger - INFO - Use my_cool_model
+2024-06-10 17:58:08,280 - MyLogger - INFO - Batch size: 64
+2024-06-10 17:58:08,280 - MyLogger - INFO - num workers: 8
+2024-06-10 17:58:08,282 - MyLogger - INFO - target channel : RGB
+2024-06-10 17:58:08,282 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 17:58:08,282 - MyLogger - INFO - Channel method : DIY
+2024-06-10 17:58:10,332 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 17:59:04,311 - MyLogger - INFO - Training loss: 3.2171045082791068
+2024-06-10 17:59:05,328 - MyLogger - INFO - Validation loss: 9.49386269039578, Validation accuracy: 0.04888888888888889
+2024-06-10 17:59:05,328 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 17:59:57,942 - MyLogger - INFO - Training loss: 2.617268950717985
+2024-06-10 17:59:58,986 - MyLogger - INFO - Validation loss: 2.573862859408061, Validation accuracy: 0.28
+2024-06-10 18:00:00,003 - MyLogger - INFO - Test loss: 2.5286146047380234, Test accuracy: 0.29333333333333333
+2024-06-10 18:00:00,243 - MyLogger - INFO - Channel method : sigmoid
+2024-06-10 18:00:00,649 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 18:00:53,477 - MyLogger - INFO - Training loss: 3.306128408471163
+2024-06-10 18:00:54,410 - MyLogger - INFO - Validation loss: 3.202919587029351, Validation accuracy: 0.17777777777777778
+2024-06-10 18:00:54,410 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 18:01:46,617 - MyLogger - INFO - Training loss: 2.6737186701985816
+2024-06-10 18:01:47,447 - MyLogger - INFO - Validation loss: 3.0761694653828937, Validation accuracy: 0.19111111111111112
+2024-06-10 18:01:48,305 - MyLogger - INFO - Test loss: 3.133863509496053, Test accuracy: 0.20666666666666667
+2024-06-10 18:01:48,529 - MyLogger - INFO - Use my_cool_model
+2024-06-10 18:02:22,631 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:02:22,631 - MyLogger - INFO - num workers: 8
+2024-06-10 18:02:22,641 - MyLogger - INFO - target channel : RGB
+2024-06-10 18:02:22,641 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:02:22,642 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:02:24,568 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 18:03:18,205 - MyLogger - INFO - Training loss: 3.379628162602403
+2024-06-10 18:03:19,044 - MyLogger - INFO - Validation loss: 3.484883870018853, Validation accuracy: 0.13555555555555557
+2024-06-10 18:03:19,045 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 18:04:10,869 - MyLogger - INFO - Training loss: 2.798678899472098
+2024-06-10 18:04:11,673 - MyLogger - INFO - Validation loss: 3.018894208272298, Validation accuracy: 0.19777777777777777
+2024-06-10 18:04:12,532 - MyLogger - INFO - Test loss: 2.8724040052625868, Test accuracy: 0.22444444444444445
+2024-06-10 18:04:12,772 - MyLogger - INFO - Channel method : sigmoid
+2024-06-10 18:04:13,178 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 18:05:05,057 - MyLogger - INFO - Training loss: 3.5068277424670375
+2024-06-10 18:05:05,885 - MyLogger - INFO - Validation loss: 3.4032773039076063, Validation accuracy: 0.11555555555555555
+2024-06-10 18:05:05,885 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 18:05:57,755 - MyLogger - INFO - Training loss: 2.934847307269205
+2024-06-10 18:05:58,621 - MyLogger - INFO - Validation loss: 2.8004405932956273, Validation accuracy: 0.23555555555555555
+2024-06-10 18:05:59,500 - MyLogger - INFO - Test loss: 2.78973275926378, Test accuracy: 0.23777777777777778
+2024-06-10 18:05:59,733 - MyLogger - INFO - Use my_cool_model
+2024-06-10 18:06:00,134 - MyLogger - INFO - Epoch 1/2 for target channel RGB
+2024-06-10 18:07:05,570 - MyLogger - INFO - Training loss: 3.6289275933177962
+2024-06-10 18:07:06,469 - MyLogger - INFO - Validation loss: 3.575396313137478, Validation accuracy: 0.08666666666666667
+2024-06-10 18:07:06,470 - MyLogger - INFO - Epoch 2/2 for target channel RGB
+2024-06-10 18:08:11,815 - MyLogger - INFO - Training loss: 3.2258178580442625
+2024-06-10 18:08:12,654 - MyLogger - INFO - Validation loss: 3.64931574927436, Validation accuracy: 0.1288888888888889
+2024-06-10 18:08:13,526 - MyLogger - INFO - Test loss: 3.531503286361694, Test accuracy: 0.14
+2024-06-10 18:08:13,733 - MyLogger - INFO - target channel : RG
+2024-06-10 18:08:13,733 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:08:13,733 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:08:14,109 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:13:54,380 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:13:54,381 - MyLogger - INFO - num workers: 8
+2024-06-10 18:13:54,382 - MyLogger - INFO - target channel : RG
+2024-06-10 18:13:54,382 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:13:54,382 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:13:56,170 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:17:16,435 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:17:16,435 - MyLogger - INFO - num workers: 8
+2024-06-10 18:17:16,437 - MyLogger - INFO - target channel : RG
+2024-06-10 18:17:16,437 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:17:16,437 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:17:18,164 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:20:47,606 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:20:47,606 - MyLogger - INFO - num workers: 8
+2024-06-10 18:20:47,608 - MyLogger - INFO - target channel : RG
+2024-06-10 18:20:47,608 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:20:47,608 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:20:49,755 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:23:21,233 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:23:21,233 - MyLogger - INFO - num workers: 8
+2024-06-10 18:23:21,235 - MyLogger - INFO - target channel : RG
+2024-06-10 18:23:21,235 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:23:21,235 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:23:43,165 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:23:43,166 - MyLogger - INFO - num workers: 8
+2024-06-10 18:23:43,170 - MyLogger - INFO - target channel : RG
+2024-06-10 18:23:43,171 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:23:43,171 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:26:51,024 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:26:51,024 - MyLogger - INFO - num workers: 8
+2024-06-10 18:26:51,026 - MyLogger - INFO - target channel : RG
+2024-06-10 18:26:51,026 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:26:51,026 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:26:56,238 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:26:56,238 - MyLogger - INFO - num workers: 8
+2024-06-10 18:26:56,240 - MyLogger - INFO - target channel : RG
+2024-06-10 18:26:56,240 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:26:56,240 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:27:17,189 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:27:17,189 - MyLogger - INFO - num workers: 8
+2024-06-10 18:27:17,191 - MyLogger - INFO - target channel : RG
+2024-06-10 18:27:17,191 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:27:17,191 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:31:53,206 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:31:53,206 - MyLogger - INFO - num workers: 8
+2024-06-10 18:31:53,209 - MyLogger - INFO - target channel : RG
+2024-06-10 18:31:53,209 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:31:53,209 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:34:24,994 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:34:24,995 - MyLogger - INFO - num workers: 8
+2024-06-10 18:34:24,996 - MyLogger - INFO - target channel : RG
+2024-06-10 18:34:24,996 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:34:24,996 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:36:08,681 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:36:08,681 - MyLogger - INFO - num workers: 8
+2024-06-10 18:36:08,683 - MyLogger - INFO - target channel : RG
+2024-06-10 18:36:08,683 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:36:08,683 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:36:12,755 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:36:12,755 - MyLogger - INFO - num workers: 8
+2024-06-10 18:36:12,757 - MyLogger - INFO - target channel : RG
+2024-06-10 18:36:12,757 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:36:12,757 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:36:57,469 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:36:57,470 - MyLogger - INFO - num workers: 8
+2024-06-10 18:36:57,471 - MyLogger - INFO - target channel : RG
+2024-06-10 18:36:57,471 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:36:57,471 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:37:46,430 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:37:46,430 - MyLogger - INFO - num workers: 8
+2024-06-10 18:37:46,432 - MyLogger - INFO - target channel : RG
+2024-06-10 18:37:46,432 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:37:46,432 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:37:48,195 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:38:39,614 - MyLogger - INFO - Training loss: 3.668233834826518
+2024-06-10 18:38:40,429 - MyLogger - INFO - Validation loss: 3.604446349673801, Validation accuracy: 0.10444444444444445
+2024-06-10 18:38:40,430 - MyLogger - INFO - Epoch 2/2 for target channel RG
+2024-06-10 18:39:31,698 - MyLogger - INFO - Training loss: 3.2748404922214274
+2024-06-10 18:39:32,515 - MyLogger - INFO - Validation loss: 3.3429490025838215, Validation accuracy: 0.13111111111111112
+2024-06-10 18:39:33,305 - MyLogger - INFO - Test loss: 3.316648351881239, Test accuracy: 0.14222222222222222
+2024-06-10 18:39:33,596 - MyLogger - INFO - Channel method : sigmoid
+2024-06-10 18:39:33,997 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:40:24,328 - MyLogger - INFO - Training loss: 3.8722725222640673
+2024-06-10 18:40:25,156 - MyLogger - INFO - Validation loss: 3.9262240600585936, Validation accuracy: 0.03111111111111111
+2024-06-10 18:40:25,156 - MyLogger - INFO - Epoch 2/2 for target channel RG
+2024-06-10 18:41:15,463 - MyLogger - INFO - Training loss: 3.7892240858510977
+2024-06-10 18:41:16,368 - MyLogger - INFO - Validation loss: 4.591221008300781, Validation accuracy: 0.02666666666666667
+2024-06-10 18:41:17,283 - MyLogger - INFO - Test loss: 4.588993750678169, Test accuracy: 0.015555555555555555
+2024-06-10 18:41:17,509 - MyLogger - INFO - Use my_cool_model
+2024-06-10 18:41:17,894 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:42:23,874 - MyLogger - INFO - Training loss: 3.6826996112067474
+2024-06-10 18:44:28,486 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:44:28,486 - MyLogger - INFO - num workers: 8
+2024-06-10 18:44:28,489 - MyLogger - INFO - target channel : RG
+2024-06-10 18:44:28,489 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:44:28,489 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:44:30,236 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:45:21,623 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:45:21,623 - MyLogger - INFO - num workers: 8
+2024-06-10 18:45:21,625 - MyLogger - INFO - Use my_cool_model
+2024-06-10 18:45:23,517 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:47:25,501 - MyLogger - INFO - Training loss: 3.6779146631423822
+2024-06-10 18:47:26,577 - MyLogger - INFO - Validation loss: 4.1989233080546065, Validation accuracy: 0.03777777777777778
+2024-06-10 18:47:26,577 - MyLogger - INFO - Epoch 2/2 for target channel RG
+2024-06-10 18:48:39,529 - MyLogger - INFO - Training loss: 3.3099007577779402
+2024-06-10 18:48:40,295 - MyLogger - INFO - Validation loss: 3.637094767888387, Validation accuracy: 0.08888888888888889
+2024-06-10 18:48:41,228 - MyLogger - INFO - Test loss: 3.5222717581854925, Test accuracy: 0.10888888888888888
+2024-06-10 18:48:41,453 - MyLogger - INFO - target channel : RG
+2024-06-10 18:48:41,454 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:48:41,454 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:48:41,845 - MyLogger - INFO - Epoch 1/2 for target channel RG
+2024-06-10 18:50:18,409 - MyLogger - INFO - Batch size: 64
+2024-06-10 18:50:18,409 - MyLogger - INFO - num workers: 8
+2024-06-10 18:50:18,410 - MyLogger - INFO - target channel : RG
+2024-06-10 18:50:18,410 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:50:18,410 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:50:20,155 - MyLogger - INFO - Epoch 1/30 for target channel RG
+2024-06-10 18:50:34,151 - MyLogger - INFO - Batch size: 128
+2024-06-10 18:50:34,151 - MyLogger - INFO - num workers: 16
+2024-06-10 18:50:34,153 - MyLogger - INFO - target channel : RG
+2024-06-10 18:50:34,153 - MyLogger - INFO - Use data preprocessing method
+2024-06-10 18:50:34,153 - MyLogger - INFO - Channel method : DIY
+2024-06-10 18:50:35,896 - MyLogger - INFO - Epoch 1/30 for target channel RG
+2024-06-10 18:51:24,098 - MyLogger - INFO - Training loss: 3.5521101170926523
+2024-06-10 18:51:25,284 - MyLogger - INFO - Validation loss: 3.991203213797675, Validation accuracy: 0.04888888888888889
+2024-06-10 18:51:25,285 - MyLogger - INFO - Epoch 2/30 for target channel RG
+2024-06-10 18:52:12,167 - MyLogger - INFO - Training loss: 3.0816784811339923
+2024-06-10 18:52:13,344 - MyLogger - INFO - Validation loss: 3.487798245747884, Validation accuracy: 0.14888888888888888
+2024-06-10 18:52:13,344 - MyLogger - INFO - Epoch 3/30 for target channel RG
+2024-06-10 18:53:00,082 - MyLogger - INFO - Training loss: 2.753452331649895
+2024-06-10 18:53:01,316 - MyLogger - INFO - Validation loss: 2.9499425103929307, Validation accuracy: 0.24444444444444444
+2024-06-10 18:53:01,317 - MyLogger - INFO - Epoch 4/30 for target channel RG
