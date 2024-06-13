@@ -49,7 +49,7 @@ def validate_model(model, val_loader, criterion, device):
 def build_model_and_optimizer(target_channel, num_classes, device, model_type):
     if model_type == "resnet34":
         if target_channel == "RGB":
-            model = resnet34(weights='IMAGENET1K_V1')  # Use updated argument for weights
+            model = resnet34(weights=False)  # Use updated argument for weights
             model.fc = nn.Linear(model.fc.in_features, num_classes)
         else:
             model = resnet34(weights='IMAGENET1K_V1')
