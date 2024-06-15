@@ -5720,3 +5720,468 @@ Test loss: 2.5764811695946586, Test accuracy: 0.2822222222222222
 2024-06-13 16:06:05,581 - MyLogger - INFO - Validation loss: 2.2253986506991916, Validation accuracy: 0.3977777777777778
 2024-06-13 16:06:08,269 - MyLogger - INFO - Target channel: RGB
 Test loss: 1.8406108548906115, Test accuracy: 0.45555555555555555
+2024-06-13 16:24:18,231 - MyLogger - INFO - Batch size: 128
+2024-06-13 16:24:18,231 - MyLogger - INFO - num workers: 16
+2024-06-13 16:24:18,231 - MyLogger - INFO - train baseline resnet34 model
+2024-06-13 16:24:20,200 - MyLogger - INFO - Epoch 1/50 for target channel RGB
+2024-06-13 16:25:20,690 - MyLogger - INFO - Training loss: 3.645061460258553
+2024-06-13 16:25:22,090 - MyLogger - INFO - Validation loss: 3.7521170139312745, Validation accuracy: 0.09111111111111111
+2024-06-13 16:25:22,234 - MyLogger - INFO - Epoch 2/50 for target channel RGB
+2024-06-13 16:26:19,915 - MyLogger - INFO - Training loss: 3.385667516826595
+2024-06-13 16:26:21,345 - MyLogger - INFO - Validation loss: 3.831864906946818, Validation accuracy: 0.09333333333333334
+2024-06-13 16:26:21,345 - MyLogger - INFO - Epoch 3/50 for target channel RGB
+2024-06-13 16:27:18,776 - MyLogger - INFO - Training loss: 3.2099008971845686
+2024-06-13 16:27:20,403 - MyLogger - INFO - Validation loss: 4.037769351535373, Validation accuracy: 0.04
+2024-06-13 16:27:20,403 - MyLogger - INFO - Epoch 4/50 for target channel RGB
+2024-06-13 16:28:17,554 - MyLogger - INFO - Training loss: 3.0576911843138346
+2024-06-13 16:28:19,204 - MyLogger - INFO - Validation loss: 4.107231498294406, Validation accuracy: 0.04888888888888889
+2024-06-13 16:28:19,204 - MyLogger - INFO - Epoch 5/50 for target channel RGB
+2024-06-13 16:29:16,484 - MyLogger - INFO - Training loss: 2.921358418978583
+2024-06-13 16:29:17,894 - MyLogger - INFO - Validation loss: 3.705802681181166, Validation accuracy: 0.08444444444444445
+2024-06-13 16:29:18,041 - MyLogger - INFO - Epoch 6/50 for target channel RGB
+2024-06-13 16:30:16,129 - MyLogger - INFO - Training loss: 2.7959529190989665
+2024-06-13 16:30:17,603 - MyLogger - INFO - Validation loss: 3.2401026513841416, Validation accuracy: 0.1622222222222222
+2024-06-13 16:30:17,740 - MyLogger - INFO - Epoch 7/50 for target channel RGB
+2024-06-13 16:31:14,619 - MyLogger - INFO - Training loss: 2.6767725991581535
+2024-06-13 16:31:16,031 - MyLogger - INFO - Validation loss: 3.506765127182007, Validation accuracy: 0.16
+2024-06-13 16:31:16,031 - MyLogger - INFO - Epoch 8/50 for target channel RGB
+2024-06-13 16:32:13,150 - MyLogger - INFO - Training loss: 2.564022663114949
+2024-06-13 16:32:14,758 - MyLogger - INFO - Validation loss: 3.090387256410387, Validation accuracy: 0.2
+2024-06-13 16:32:14,906 - MyLogger - INFO - Epoch 9/50 for target channel RGB
+2024-06-13 16:33:12,035 - MyLogger - INFO - Training loss: 2.4779960386017965
+2024-06-13 16:33:13,575 - MyLogger - INFO - Validation loss: 4.769849722120497, Validation accuracy: 0.06888888888888889
+2024-06-13 16:33:13,576 - MyLogger - INFO - Epoch 10/50 for target channel RGB
+2024-06-13 16:34:11,386 - MyLogger - INFO - Training loss: 2.3806433340141155
+2024-06-13 16:34:12,795 - MyLogger - INFO - Validation loss: 3.180796906153361, Validation accuracy: 0.1622222222222222
+2024-06-13 16:34:12,795 - MyLogger - INFO - Epoch 11/50 for target channel RGB
+2024-06-13 16:35:09,808 - MyLogger - INFO - Training loss: 2.3088826012978476
+2024-06-13 16:35:11,223 - MyLogger - INFO - Validation loss: 3.7522529559665254, Validation accuracy: 0.12222222222222222
+2024-06-13 16:35:11,224 - MyLogger - INFO - Epoch 12/50 for target channel RGB
+2024-06-13 16:36:08,107 - MyLogger - INFO - Training loss: 2.2291902676901234
+2024-06-13 16:36:09,596 - MyLogger - INFO - Validation loss: 2.4411204263899062, Validation accuracy: 0.3333333333333333
+2024-06-13 16:36:09,737 - MyLogger - INFO - Epoch 13/50 for target channel RGB
+2024-06-13 16:37:06,904 - MyLogger - INFO - Training loss: 2.1722258526846865
+2024-06-13 16:37:08,377 - MyLogger - INFO - Validation loss: 5.141575416988797, Validation accuracy: 0.04888888888888889
+2024-06-13 16:37:08,377 - MyLogger - INFO - Epoch 14/50 for target channel RGB
+2024-06-13 16:38:06,759 - MyLogger - INFO - Training loss: 2.1023196937724435
+2024-06-13 16:38:08,197 - MyLogger - INFO - Validation loss: 2.264086365169949, Validation accuracy: 0.3488888888888889
+2024-06-13 16:38:08,336 - MyLogger - INFO - Epoch 15/50 for target channel RGB
+2024-06-13 16:39:05,196 - MyLogger - INFO - Training loss: 2.0513899927632497
+2024-06-13 16:39:06,732 - MyLogger - INFO - Validation loss: 2.335777766969469, Validation accuracy: 0.37555555555555553
+2024-06-13 16:39:06,732 - MyLogger - INFO - Epoch 16/50 for target channel RGB
+2024-06-13 16:40:03,539 - MyLogger - INFO - Training loss: 2.000260846694844
+2024-06-13 16:40:04,883 - MyLogger - INFO - Validation loss: 3.22338758998447, Validation accuracy: 0.21777777777777776
+2024-06-13 16:40:04,883 - MyLogger - INFO - Epoch 17/50 for target channel RGB
+2024-06-13 16:41:02,163 - MyLogger - INFO - Training loss: 1.948726172708872
+2024-06-13 16:41:03,599 - MyLogger - INFO - Validation loss: 2.221878765424093, Validation accuracy: 0.37777777777777777
+2024-06-13 16:41:03,740 - MyLogger - INFO - Epoch 18/50 for target channel RGB
+2024-06-13 16:42:01,075 - MyLogger - INFO - Training loss: 1.8994802824442818
+2024-06-13 16:42:02,472 - MyLogger - INFO - Validation loss: 2.6386562071906194, Validation accuracy: 0.3088888888888889
+2024-06-13 16:42:02,473 - MyLogger - INFO - Epoch 19/50 for target channel RGB
+2024-06-13 16:42:59,690 - MyLogger - INFO - Training loss: 1.8562895002583482
+2024-06-13 16:43:01,217 - MyLogger - INFO - Validation loss: 2.7884761450025772, Validation accuracy: 0.27111111111111114
+2024-06-13 16:43:01,217 - MyLogger - INFO - Epoch 20/50 for target channel RGB
+2024-06-13 16:43:58,188 - MyLogger - INFO - Training loss: 1.8220980870295456
+2024-06-13 16:43:59,708 - MyLogger - INFO - Validation loss: 2.1927573998769123, Validation accuracy: 0.36
+2024-06-13 16:43:59,853 - MyLogger - INFO - Epoch 21/50 for target channel RGB
+2024-06-13 16:44:56,968 - MyLogger - INFO - Training loss: 1.7883176118716675
+2024-06-13 16:44:58,357 - MyLogger - INFO - Validation loss: 2.423880310058594, Validation accuracy: 0.36666666666666664
+2024-06-13 16:44:58,357 - MyLogger - INFO - Epoch 22/50 for target channel RGB
+2024-06-13 16:45:55,469 - MyLogger - INFO - Training loss: 1.7525943462113547
+2024-06-13 16:45:56,844 - MyLogger - INFO - Validation loss: 4.619904823303223, Validation accuracy: 0.12666666666666668
+2024-06-13 16:45:56,844 - MyLogger - INFO - Epoch 23/50 for target channel RGB
+2024-06-13 16:46:53,734 - MyLogger - INFO - Training loss: 1.722928681791511
+2024-06-13 16:46:55,147 - MyLogger - INFO - Validation loss: 3.0273298094007703, Validation accuracy: 0.24666666666666667
+2024-06-13 16:46:55,148 - MyLogger - INFO - Epoch 24/50 for target channel RGB
+2024-06-13 16:47:52,148 - MyLogger - INFO - Training loss: 1.6857879079795384
+2024-06-13 16:47:53,556 - MyLogger - INFO - Validation loss: 2.0705875968933105, Validation accuracy: 0.4311111111111111
+2024-06-13 16:47:53,696 - MyLogger - INFO - Epoch 25/50 for target channel RGB
+2024-06-13 16:48:51,506 - MyLogger - INFO - Training loss: 1.6619376066895375
+2024-06-13 16:48:53,107 - MyLogger - INFO - Validation loss: 2.064128999180264, Validation accuracy: 0.4066666666666667
+2024-06-13 16:48:53,250 - MyLogger - INFO - Epoch 26/50 for target channel RGB
+2024-06-13 16:49:50,246 - MyLogger - INFO - Training loss: 1.633596450765755
+2024-06-13 16:49:51,749 - MyLogger - INFO - Validation loss: 2.3950140804714626, Validation accuracy: 0.3288888888888889
+2024-06-13 16:49:51,749 - MyLogger - INFO - Epoch 27/50 for target channel RGB
+2024-06-13 16:50:48,687 - MyLogger - INFO - Training loss: 1.6164833533862717
+2024-06-13 16:50:50,033 - MyLogger - INFO - Validation loss: 2.7572484164767794, Validation accuracy: 0.32
+2024-06-13 16:50:50,034 - MyLogger - INFO - Epoch 28/50 for target channel RGB
+2024-06-13 16:51:47,232 - MyLogger - INFO - Training loss: 1.5855911291422131
+2024-06-13 16:51:48,571 - MyLogger - INFO - Validation loss: 2.2004514323340523, Validation accuracy: 0.3711111111111111
+2024-06-13 16:51:48,571 - MyLogger - INFO - Epoch 29/50 for target channel RGB
+2024-06-13 16:52:46,391 - MyLogger - INFO - Training loss: 1.5566156037843044
+2024-06-13 16:52:47,864 - MyLogger - INFO - Validation loss: 2.6857681401570637, Validation accuracy: 0.32
+2024-06-13 16:52:47,864 - MyLogger - INFO - Epoch 30/50 for target channel RGB
+2024-06-13 16:53:44,601 - MyLogger - INFO - Training loss: 1.542564447894663
+2024-06-13 16:53:46,019 - MyLogger - INFO - Validation loss: 3.1219618966844345, Validation accuracy: 0.29555555555555557
+2024-06-13 16:53:46,020 - MyLogger - INFO - Epoch 31/50 for target channel RGB
+2024-06-13 16:54:42,975 - MyLogger - INFO - Training loss: 1.512376231108077
+2024-06-13 16:54:44,412 - MyLogger - INFO - Validation loss: 2.414258721669515, Validation accuracy: 0.3488888888888889
+2024-06-13 16:54:44,412 - MyLogger - INFO - Epoch 32/50 for target channel RGB
+2024-06-13 16:55:41,212 - MyLogger - INFO - Training loss: 1.510343537283565
+2024-06-13 16:55:42,654 - MyLogger - INFO - Validation loss: 2.142047174241808, Validation accuracy: 0.3977777777777778
+2024-06-13 16:55:42,655 - MyLogger - INFO - Epoch 33/50 for target channel RGB
+2024-06-13 16:56:40,399 - MyLogger - INFO - Training loss: 1.4762507986711788
+2024-06-13 16:56:41,973 - MyLogger - INFO - Validation loss: 2.2264076148139105, Validation accuracy: 0.4022222222222222
+2024-06-13 16:56:41,973 - MyLogger - INFO - Epoch 34/50 for target channel RGB
+2024-06-13 16:57:38,880 - MyLogger - INFO - Training loss: 1.4591524125707982
+2024-06-13 16:57:40,256 - MyLogger - INFO - Validation loss: 1.9910968674553766, Validation accuracy: 0.4266666666666667
+2024-06-13 16:57:40,385 - MyLogger - INFO - Epoch 35/50 for target channel RGB
+2024-06-13 16:58:37,066 - MyLogger - INFO - Training loss: 1.4425544402762172
+2024-06-13 16:58:38,579 - MyLogger - INFO - Validation loss: 2.016698882844713, Validation accuracy: 0.43777777777777777
+2024-06-13 16:58:38,580 - MyLogger - INFO - Epoch 36/50 for target channel RGB
+2024-06-13 16:59:35,583 - MyLogger - INFO - Training loss: 1.4285625608570718
+2024-06-13 16:59:36,930 - MyLogger - INFO - Validation loss: 2.1241012710995144, Validation accuracy: 0.4066666666666667
+2024-06-13 16:59:36,930 - MyLogger - INFO - Epoch 37/50 for target channel RGB
+2024-06-13 17:00:33,743 - MyLogger - INFO - Training loss: 1.4096414841600335
+2024-06-13 17:00:35,103 - MyLogger - INFO - Validation loss: 2.3299084822336833, Validation accuracy: 0.3888888888888889
+2024-06-13 17:00:35,103 - MyLogger - INFO - Epoch 38/50 for target channel RGB
+2024-06-13 17:01:31,894 - MyLogger - INFO - Training loss: 1.3875063899435924
+2024-06-13 17:01:33,339 - MyLogger - INFO - Validation loss: 2.0555809201134574, Validation accuracy: 0.43555555555555553
+2024-06-13 17:01:33,339 - MyLogger - INFO - Epoch 39/50 for target channel RGB
+2024-06-13 17:02:30,365 - MyLogger - INFO - Training loss: 1.3787140404241527
+2024-06-13 17:02:31,904 - MyLogger - INFO - Validation loss: 1.9330048826005723, Validation accuracy: 0.43777777777777777
+2024-06-13 17:02:32,044 - MyLogger - INFO - Epoch 40/50 for target channel RGB
+2024-06-13 17:03:28,769 - MyLogger - INFO - Training loss: 1.3605056590220697
+2024-06-13 17:03:30,124 - MyLogger - INFO - Validation loss: 2.1143136925167507, Validation accuracy: 0.42444444444444446
+2024-06-13 17:03:30,124 - MyLogger - INFO - Epoch 41/50 for target channel RGB
+2024-06-13 17:04:27,140 - MyLogger - INFO - Training loss: 1.3442561291932966
+2024-06-13 17:04:28,524 - MyLogger - INFO - Validation loss: 2.8313112661573623, Validation accuracy: 0.3
+2024-06-13 17:04:28,524 - MyLogger - INFO - Epoch 42/50 for target channel RGB
+2024-06-13 17:05:25,261 - MyLogger - INFO - Training loss: 1.3337581082327865
+2024-06-13 17:05:26,790 - MyLogger - INFO - Validation loss: 1.9332706223593819, Validation accuracy: 0.4666666666666667
+2024-06-13 17:05:26,791 - MyLogger - INFO - Epoch 43/50 for target channel RGB
+2024-06-13 17:06:23,802 - MyLogger - INFO - Training loss: 1.3137151018659259
+2024-06-13 17:06:25,154 - MyLogger - INFO - Validation loss: 1.988335747188992, Validation accuracy: 0.4288888888888889
+2024-06-13 17:06:25,154 - MyLogger - INFO - Epoch 44/50 for target channel RGB
+2024-06-13 17:07:22,447 - MyLogger - INFO - Training loss: 1.3008214464518941
+2024-06-13 17:07:23,938 - MyLogger - INFO - Validation loss: 1.8541862392425537, Validation accuracy: 0.4888888888888889
+2024-06-13 17:07:24,075 - MyLogger - INFO - Epoch 45/50 for target channel RGB
+2024-06-13 17:08:21,528 - MyLogger - INFO - Training loss: 1.2863558767597711
+2024-06-13 17:08:23,034 - MyLogger - INFO - Validation loss: 3.24173866060045, Validation accuracy: 0.2733333333333333
+2024-06-13 17:08:23,034 - MyLogger - INFO - Epoch 46/50 for target channel RGB
+2024-06-13 17:09:19,635 - MyLogger - INFO - Training loss: 1.2833785407626954
+2024-06-13 17:09:21,042 - MyLogger - INFO - Validation loss: 2.4628931543562147, Validation accuracy: 0.33111111111111113
+2024-06-13 17:09:21,043 - MyLogger - INFO - Epoch 47/50 for target channel RGB
+2024-06-13 17:10:17,918 - MyLogger - INFO - Training loss: 1.2575997925105888
+2024-06-13 17:10:19,399 - MyLogger - INFO - Validation loss: 2.0911249701182046, Validation accuracy: 0.4266666666666667
+2024-06-13 17:10:19,400 - MyLogger - INFO - Epoch 48/50 for target channel RGB
+2024-06-13 17:11:16,710 - MyLogger - INFO - Training loss: 1.2554357987903486
+2024-06-13 17:11:18,190 - MyLogger - INFO - Validation loss: 2.0144333510928685, Validation accuracy: 0.46
+2024-06-13 17:11:18,190 - MyLogger - INFO - Epoch 49/50 for target channel RGB
+2024-06-13 17:12:15,577 - MyLogger - INFO - Training loss: 1.2424991379036434
+2024-06-13 17:12:17,111 - MyLogger - INFO - Validation loss: 2.596025991439819, Validation accuracy: 0.33111111111111113
+2024-06-13 17:12:17,111 - MyLogger - INFO - Epoch 50/50 for target channel RGB
+2024-06-13 17:13:14,049 - MyLogger - INFO - Training loss: 1.229774498785149
+2024-06-13 17:13:15,624 - MyLogger - INFO - Validation loss: 2.268170977698432, Validation accuracy: 0.42444444444444446
+2024-06-13 17:13:17,875 - MyLogger - INFO - Target channel: RGB
+Test loss: 1.9223556598027547, Test accuracy: 0.47333333333333333
+2024-06-14 19:39:01,819 - MyLogger - INFO - Batch size: 128
+2024-06-14 19:39:01,819 - MyLogger - INFO - num workers: 16
+2024-06-14 19:39:01,819 - MyLogger - INFO - train baseline resnet34 model
+2024-06-14 19:39:03,449 - MyLogger - INFO - Epoch 1/50 for target channel RGB
+2024-06-14 19:39:52,334 - MyLogger - INFO - Training loss: 3.6903883850249763
+2024-06-14 19:39:53,456 - MyLogger - INFO - Validation loss: 4.199216003417969, Validation accuracy: 0.022222222222222223
+2024-06-14 19:39:53,587 - MyLogger - INFO - Epoch 2/50 for target channel RGB
+2024-06-14 19:40:41,491 - MyLogger - INFO - Training loss: 3.452926437428381
+2024-06-14 19:40:42,625 - MyLogger - INFO - Validation loss: 4.426189545525445, Validation accuracy: 0.04666666666666667
+2024-06-14 19:40:42,626 - MyLogger - INFO - Epoch 3/50 for target channel RGB
+2024-06-14 19:41:30,699 - MyLogger - INFO - Training loss: 3.285373570712903
+2024-06-14 19:41:31,808 - MyLogger - INFO - Validation loss: 3.930948541429308, Validation accuracy: 0.06888888888888889
+2024-06-14 19:41:31,937 - MyLogger - INFO - Epoch 4/50 for target channel RGB
+2024-06-14 19:42:20,042 - MyLogger - INFO - Training loss: 3.161988341910915
+2024-06-14 19:42:21,162 - MyLogger - INFO - Validation loss: 3.9223511950174967, Validation accuracy: 0.06444444444444444
+2024-06-14 19:42:21,289 - MyLogger - INFO - Epoch 5/50 for target channel RGB
+2024-06-14 19:43:09,184 - MyLogger - INFO - Training loss: 3.0630749902412724
+2024-06-14 19:43:10,296 - MyLogger - INFO - Validation loss: 3.6678304280175102, Validation accuracy: 0.1
+2024-06-14 19:43:10,438 - MyLogger - INFO - Epoch 6/50 for target channel RGB
+2024-06-14 19:43:58,306 - MyLogger - INFO - Training loss: 2.9543660272123122
+2024-06-14 19:43:59,432 - MyLogger - INFO - Validation loss: 5.338207431369358, Validation accuracy: 0.06222222222222222
+2024-06-14 19:43:59,432 - MyLogger - INFO - Epoch 7/50 for target channel RGB
+2024-06-14 19:44:47,241 - MyLogger - INFO - Training loss: 2.875028736006823
+2024-06-14 19:44:48,350 - MyLogger - INFO - Validation loss: 3.5311854224734835, Validation accuracy: 0.11777777777777777
+2024-06-14 19:44:48,476 - MyLogger - INFO - Epoch 8/50 for target channel RGB
+2024-06-14 19:45:36,368 - MyLogger - INFO - Training loss: 2.7886862300461663
+2024-06-14 19:45:37,513 - MyLogger - INFO - Validation loss: 4.000479271146986, Validation accuracy: 0.07111111111111111
+2024-06-14 19:45:37,514 - MyLogger - INFO - Epoch 9/50 for target channel RGB
+2024-06-14 19:46:25,386 - MyLogger - INFO - Training loss: 2.7198168435004497
+2024-06-14 19:46:26,532 - MyLogger - INFO - Validation loss: 3.1749499140845403, Validation accuracy: 0.18
+2024-06-14 19:46:26,661 - MyLogger - INFO - Epoch 10/50 for target channel RGB
+2024-06-14 19:47:14,433 - MyLogger - INFO - Training loss: 2.650677345187778
+2024-06-14 19:47:15,581 - MyLogger - INFO - Validation loss: 5.5002557966444225, Validation accuracy: 0.02666666666666667
+2024-06-14 19:47:15,581 - MyLogger - INFO - Epoch 11/50 for target channel RGB
+2024-06-14 19:48:03,391 - MyLogger - INFO - Training loss: 2.5975767964898857
+2024-06-14 19:48:04,498 - MyLogger - INFO - Validation loss: 5.301522532569037, Validation accuracy: 0.03333333333333333
+2024-06-14 19:48:04,498 - MyLogger - INFO - Epoch 12/50 for target channel RGB
+2024-06-14 19:48:52,262 - MyLogger - INFO - Training loss: 2.5371371254768476
+2024-06-14 19:48:53,385 - MyLogger - INFO - Validation loss: 3.6714367866516113, Validation accuracy: 0.16666666666666666
+2024-06-14 19:48:53,385 - MyLogger - INFO - Epoch 13/50 for target channel RGB
+2024-06-14 19:49:41,244 - MyLogger - INFO - Training loss: 2.4848665876798934
+2024-06-14 19:49:42,354 - MyLogger - INFO - Validation loss: 4.217491953108046, Validation accuracy: 0.051111111111111114
+2024-06-14 19:49:42,355 - MyLogger - INFO - Epoch 14/50 for target channel RGB
+2024-06-14 19:50:29,962 - MyLogger - INFO - Training loss: 2.457183957990337
+2024-06-14 19:50:31,109 - MyLogger - INFO - Validation loss: 3.9969747310214574, Validation accuracy: 0.1
+2024-06-14 19:50:31,109 - MyLogger - INFO - Epoch 15/50 for target channel RGB
+2024-06-14 19:51:18,723 - MyLogger - INFO - Training loss: 2.4169638063594188
+2024-06-14 19:51:19,847 - MyLogger - INFO - Validation loss: 3.6041720581054686, Validation accuracy: 0.10444444444444445
+2024-06-14 19:51:19,847 - MyLogger - INFO - Epoch 16/50 for target channel RGB
+2024-06-14 19:52:07,501 - MyLogger - INFO - Training loss: 2.391373429827383
+2024-06-14 19:52:08,615 - MyLogger - INFO - Validation loss: 3.5913209777408177, Validation accuracy: 0.12666666666666668
+2024-06-14 19:52:08,615 - MyLogger - INFO - Epoch 17/50 for target channel RGB
+2024-06-14 19:52:56,245 - MyLogger - INFO - Training loss: 2.353800002183549
+2024-06-14 19:52:57,355 - MyLogger - INFO - Validation loss: 3.386340301301744, Validation accuracy: 0.1511111111111111
+2024-06-14 19:52:57,356 - MyLogger - INFO - Epoch 18/50 for target channel RGB
+2024-06-14 19:53:44,946 - MyLogger - INFO - Training loss: 2.331367816815864
+2024-06-14 19:53:46,062 - MyLogger - INFO - Validation loss: 3.6951485951741536, Validation accuracy: 0.10444444444444445
+2024-06-14 19:53:46,063 - MyLogger - INFO - Epoch 19/50 for target channel RGB
+2024-06-14 19:54:33,754 - MyLogger - INFO - Training loss: 2.3066928218204517
+2024-06-14 19:54:34,889 - MyLogger - INFO - Validation loss: 4.237869269053141, Validation accuracy: 0.057777777777777775
+2024-06-14 19:54:34,889 - MyLogger - INFO - Epoch 20/50 for target channel RGB
+2024-06-14 19:55:22,582 - MyLogger - INFO - Training loss: 2.2831069399084067
+2024-06-14 19:55:23,730 - MyLogger - INFO - Validation loss: 4.030987367630005, Validation accuracy: 0.09333333333333334
+2024-06-14 19:55:23,730 - MyLogger - INFO - Epoch 21/50 for target channel RGB
+2024-06-14 19:56:11,380 - MyLogger - INFO - Training loss: 2.2540877062409375
+2024-06-14 19:56:12,480 - MyLogger - INFO - Validation loss: 5.028727823893229, Validation accuracy: 0.08
+2024-06-14 19:56:12,480 - MyLogger - INFO - Epoch 22/50 for target channel RGB
+2024-06-14 19:57:00,152 - MyLogger - INFO - Training loss: 2.238881996785799
+2024-06-14 19:57:01,380 - MyLogger - INFO - Validation loss: 2.7439050610860187, Validation accuracy: 0.2577777777777778
+2024-06-14 19:57:01,507 - MyLogger - INFO - Epoch 23/50 for target channel RGB
+2024-06-14 19:57:49,023 - MyLogger - INFO - Training loss: 2.2069879716420617
+2024-06-14 19:57:50,151 - MyLogger - INFO - Validation loss: 3.0470929135216607, Validation accuracy: 0.19777777777777777
+2024-06-14 19:57:50,152 - MyLogger - INFO - Epoch 24/50 for target channel RGB
+2024-06-14 19:58:37,664 - MyLogger - INFO - Training loss: 2.193742317360849
+2024-06-14 19:58:38,846 - MyLogger - INFO - Validation loss: 4.477068983713786, Validation accuracy: 0.07333333333333333
+2024-06-14 19:58:38,846 - MyLogger - INFO - Epoch 25/50 for target channel RGB
+2024-06-14 19:59:26,381 - MyLogger - INFO - Training loss: 2.168987180711345
+2024-06-14 19:59:27,515 - MyLogger - INFO - Validation loss: 3.2798425515492755, Validation accuracy: 0.22
+2024-06-14 19:59:27,516 - MyLogger - INFO - Epoch 26/50 for target channel RGB
+2024-06-14 20:00:15,177 - MyLogger - INFO - Training loss: 2.15125109007271
+2024-06-14 20:00:16,296 - MyLogger - INFO - Validation loss: 3.085681667327881, Validation accuracy: 0.21333333333333335
+2024-06-14 20:00:16,296 - MyLogger - INFO - Epoch 27/50 for target channel RGB
+2024-06-14 20:01:03,883 - MyLogger - INFO - Training loss: 2.1384192086245015
+2024-06-14 20:01:05,042 - MyLogger - INFO - Validation loss: 3.613876300387912, Validation accuracy: 0.17555555555555555
+2024-06-14 20:01:05,043 - MyLogger - INFO - Epoch 28/50 for target channel RGB
+2024-06-14 20:01:52,600 - MyLogger - INFO - Training loss: 2.134203396948533
+2024-06-14 20:01:53,743 - MyLogger - INFO - Validation loss: 3.0530829588572184, Validation accuracy: 0.21777777777777776
+2024-06-14 20:01:53,743 - MyLogger - INFO - Epoch 29/50 for target channel RGB
+2024-06-14 20:02:41,415 - MyLogger - INFO - Training loss: 2.1058083190082137
+2024-06-14 20:02:42,515 - MyLogger - INFO - Validation loss: 4.039017611609565, Validation accuracy: 0.12
+2024-06-14 20:02:42,515 - MyLogger - INFO - Epoch 30/50 for target channel RGB
+2024-06-14 20:03:29,697 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:03:30,797 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:03:30,797 - MyLogger - INFO - Epoch 31/50 for target channel RGB
+2024-06-14 20:04:17,089 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:04:18,237 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:04:18,238 - MyLogger - INFO - Epoch 32/50 for target channel RGB
+2024-06-14 20:05:04,295 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:05:05,415 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:05:05,416 - MyLogger - INFO - Epoch 33/50 for target channel RGB
+2024-06-14 20:05:51,404 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:05:52,728 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:05:52,729 - MyLogger - INFO - Epoch 34/50 for target channel RGB
+2024-06-14 20:06:39,199 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:06:40,368 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:06:40,369 - MyLogger - INFO - Epoch 35/50 for target channel RGB
+2024-06-14 20:07:26,506 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:07:27,611 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:07:27,611 - MyLogger - INFO - Epoch 36/50 for target channel RGB
+2024-06-14 20:08:13,766 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:08:14,890 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:08:14,891 - MyLogger - INFO - Epoch 37/50 for target channel RGB
+2024-06-14 20:09:01,078 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:09:02,273 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:09:02,274 - MyLogger - INFO - Epoch 38/50 for target channel RGB
+2024-06-14 20:09:48,349 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:09:49,475 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:09:49,475 - MyLogger - INFO - Epoch 39/50 for target channel RGB
+2024-06-14 20:10:35,484 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:10:36,674 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:10:36,674 - MyLogger - INFO - Epoch 40/50 for target channel RGB
+2024-06-14 20:11:22,692 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:11:23,802 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:11:23,802 - MyLogger - INFO - Epoch 41/50 for target channel RGB
+2024-06-14 20:12:10,040 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:12:11,156 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:12:11,156 - MyLogger - INFO - Epoch 42/50 for target channel RGB
+2024-06-14 20:12:57,360 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:12:58,501 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:12:58,501 - MyLogger - INFO - Epoch 43/50 for target channel RGB
+2024-06-14 20:13:44,657 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:13:45,774 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:13:45,774 - MyLogger - INFO - Epoch 44/50 for target channel RGB
+2024-06-14 20:14:31,881 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:14:33,003 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:14:33,004 - MyLogger - INFO - Epoch 45/50 for target channel RGB
+2024-06-14 20:15:19,160 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:15:20,277 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:15:20,278 - MyLogger - INFO - Epoch 46/50 for target channel RGB
+2024-06-14 20:16:06,436 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:16:07,572 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:16:07,572 - MyLogger - INFO - Epoch 47/50 for target channel RGB
+2024-06-14 20:16:53,922 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:16:55,000 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:16:55,000 - MyLogger - INFO - Epoch 48/50 for target channel RGB
+2024-06-14 20:17:41,156 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:17:42,264 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:17:42,264 - MyLogger - INFO - Epoch 49/50 for target channel RGB
+2024-06-14 20:18:28,520 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:18:29,653 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:18:29,653 - MyLogger - INFO - Epoch 50/50 for target channel RGB
+2024-06-14 20:19:16,223 - MyLogger - INFO - Training loss: nan
+2024-06-14 20:19:17,384 - MyLogger - INFO - Validation loss: nan, Validation accuracy: 0.02
+2024-06-14 20:19:19,232 - MyLogger - INFO - Target channel: RGB
+Test loss: 2.6166282198164197, Test accuracy: 0.24888888888888888
+2024-06-14 20:31:34,189 - MyLogger - INFO - Batch size: 128
+2024-06-14 20:31:34,189 - MyLogger - INFO - num workers: 16
+2024-06-14 20:31:34,189 - MyLogger - INFO - train baseline resnet34 model
+2024-06-14 20:31:35,803 - MyLogger - INFO - Epoch 1/50 for target channel RGB
+2024-06-14 20:32:25,279 - MyLogger - INFO - Training loss: 3.6528827832858646
+2024-06-14 20:32:26,559 - MyLogger - INFO - Validation loss: 4.235499199761285, Validation accuracy: 0.044444444444444446
+2024-06-14 20:32:26,706 - MyLogger - INFO - Epoch 2/50 for target channel RGB
+2024-06-14 20:33:15,175 - MyLogger - INFO - Training loss: 3.3814083031406996
+2024-06-14 20:33:16,521 - MyLogger - INFO - Validation loss: 4.192958970599705, Validation accuracy: 0.06888888888888889
+2024-06-14 20:33:16,656 - MyLogger - INFO - Epoch 3/50 for target channel RGB
+2024-06-14 20:34:05,137 - MyLogger - INFO - Training loss: 3.208890208727373
+2024-06-14 20:34:06,440 - MyLogger - INFO - Validation loss: 3.606523569954766, Validation accuracy: 0.10444444444444445
+2024-06-14 20:34:06,570 - MyLogger - INFO - Epoch 4/50 for target channel RGB
+2024-06-14 20:34:54,873 - MyLogger - INFO - Training loss: 3.0600974466336655
+2024-06-14 20:34:56,130 - MyLogger - INFO - Validation loss: 3.5237499607933893, Validation accuracy: 0.10888888888888888
+2024-06-14 20:34:56,259 - MyLogger - INFO - Epoch 5/50 for target channel RGB
+2024-06-14 20:35:44,653 - MyLogger - INFO - Training loss: 2.9196512027790176
+2024-06-14 20:35:45,970 - MyLogger - INFO - Validation loss: 3.9972207927703858, Validation accuracy: 0.07333333333333333
+2024-06-14 20:35:45,970 - MyLogger - INFO - Epoch 6/50 for target channel RGB
+2024-06-14 20:36:34,345 - MyLogger - INFO - Training loss: 2.7788612892069553
+2024-06-14 20:36:35,725 - MyLogger - INFO - Validation loss: 3.8849685880872937, Validation accuracy: 0.12666666666666668
+2024-06-14 20:36:35,725 - MyLogger - INFO - Epoch 7/50 for target channel RGB
+2024-06-14 20:37:23,985 - MyLogger - INFO - Training loss: 2.6639642706229854
+2024-06-14 20:37:25,287 - MyLogger - INFO - Validation loss: 5.945094973246256, Validation accuracy: 0.03111111111111111
+2024-06-14 20:37:25,287 - MyLogger - INFO - Epoch 8/50 for target channel RGB
+2024-06-14 20:38:13,679 - MyLogger - INFO - Training loss: 2.5650001897258434
+2024-06-14 20:38:15,032 - MyLogger - INFO - Validation loss: 3.1503955141703286, Validation accuracy: 0.19777777777777777
+2024-06-14 20:38:15,164 - MyLogger - INFO - Epoch 9/50 for target channel RGB
+2024-06-14 20:39:03,445 - MyLogger - INFO - Training loss: 2.468938475415681
+2024-06-14 20:39:04,707 - MyLogger - INFO - Validation loss: 3.465734280480279, Validation accuracy: 0.17333333333333334
+2024-06-14 20:39:04,707 - MyLogger - INFO - Epoch 10/50 for target channel RGB
+2024-06-14 20:39:53,019 - MyLogger - INFO - Training loss: 2.384118620499386
+2024-06-14 20:39:54,333 - MyLogger - INFO - Validation loss: 4.603363819122315, Validation accuracy: 0.09333333333333334
+2024-06-14 20:39:54,334 - MyLogger - INFO - Epoch 11/50 for target channel RGB
+2024-06-14 20:40:42,530 - MyLogger - INFO - Training loss: 2.3002047599223214
+2024-06-14 20:40:43,802 - MyLogger - INFO - Validation loss: 3.2704364278581406, Validation accuracy: 0.18
+2024-06-14 20:40:43,802 - MyLogger - INFO - Epoch 12/50 for target channel RGB
+2024-06-14 20:41:32,079 - MyLogger - INFO - Training loss: 2.2248078622979888
+2024-06-14 20:41:33,411 - MyLogger - INFO - Validation loss: 2.2660547627343073, Validation accuracy: 0.3622222222222222
+2024-06-14 20:41:33,544 - MyLogger - INFO - Epoch 13/50 for target channel RGB
+2024-06-14 20:42:21,595 - MyLogger - INFO - Training loss: 2.1635187515288155
+2024-06-14 20:42:22,837 - MyLogger - INFO - Validation loss: 2.541154850853814, Validation accuracy: 0.2822222222222222
+2024-06-14 20:42:22,837 - MyLogger - INFO - Epoch 14/50 for target channel RGB
+2024-06-14 20:43:11,178 - MyLogger - INFO - Training loss: 2.095225268792033
+2024-06-14 20:43:12,461 - MyLogger - INFO - Validation loss: 2.8592977258894177, Validation accuracy: 0.28888888888888886
+2024-06-14 20:43:12,461 - MyLogger - INFO - Epoch 15/50 for target channel RGB
+2024-06-14 20:44:00,774 - MyLogger - INFO - Training loss: 2.041466084283376
+2024-06-14 20:44:02,067 - MyLogger - INFO - Validation loss: 2.9478657913208006, Validation accuracy: 0.24444444444444444
+2024-06-14 20:44:02,067 - MyLogger - INFO - Epoch 16/50 for target channel RGB
+2024-06-14 20:44:50,285 - MyLogger - INFO - Training loss: 1.9905829267505597
+2024-06-14 20:44:51,649 - MyLogger - INFO - Validation loss: 2.6304456011454262, Validation accuracy: 0.28
+2024-06-14 20:44:51,649 - MyLogger - INFO - Epoch 17/50 for target channel RGB
+2024-06-14 20:45:39,905 - MyLogger - INFO - Training loss: 1.9350380642443272
+2024-06-14 20:45:41,164 - MyLogger - INFO - Validation loss: 2.536381817923652, Validation accuracy: 0.31555555555555553
+2024-06-14 20:45:41,164 - MyLogger - INFO - Epoch 18/50 for target channel RGB
+2024-06-14 20:46:29,508 - MyLogger - INFO - Training loss: 1.8890722389462151
+2024-06-14 20:46:30,790 - MyLogger - INFO - Validation loss: 2.393479584587945, Validation accuracy: 0.3466666666666667
+2024-06-14 20:46:30,790 - MyLogger - INFO - Epoch 19/50 for target channel RGB
+2024-06-14 20:47:19,165 - MyLogger - INFO - Training loss: 1.845329559027231
+2024-06-14 20:47:20,510 - MyLogger - INFO - Validation loss: 1.9512591457366943, Validation accuracy: 0.4488888888888889
+2024-06-14 20:47:20,641 - MyLogger - INFO - Epoch 20/50 for target channel RGB
+2024-06-14 20:48:08,952 - MyLogger - INFO - Training loss: 1.8113046657074312
+2024-06-14 20:48:10,229 - MyLogger - INFO - Validation loss: 2.91235331747267, Validation accuracy: 0.2577777777777778
+2024-06-14 20:48:10,230 - MyLogger - INFO - Epoch 21/50 for target channel RGB
+2024-06-14 20:48:58,389 - MyLogger - INFO - Training loss: 1.7655759002735998
+2024-06-14 20:48:59,689 - MyLogger - INFO - Validation loss: 2.4361614916059704, Validation accuracy: 0.35777777777777775
+2024-06-14 20:48:59,690 - MyLogger - INFO - Epoch 22/50 for target channel RGB
+2024-06-14 20:49:48,012 - MyLogger - INFO - Training loss: 1.7400611657320724
+2024-06-14 20:49:49,331 - MyLogger - INFO - Validation loss: 2.9417876688639324, Validation accuracy: 0.26222222222222225
+2024-06-14 20:49:49,331 - MyLogger - INFO - Epoch 23/50 for target channel RGB
+2024-06-14 20:50:37,667 - MyLogger - INFO - Training loss: 1.7110338654727084
+2024-06-14 20:50:38,991 - MyLogger - INFO - Validation loss: 2.3340329212612576, Validation accuracy: 0.37333333333333335
+2024-06-14 20:50:38,991 - MyLogger - INFO - Epoch 24/50 for target channel RGB
+2024-06-14 20:51:27,367 - MyLogger - INFO - Training loss: 1.681740862917533
+2024-06-14 20:51:28,676 - MyLogger - INFO - Validation loss: 2.2366007656521267, Validation accuracy: 0.3844444444444444
+2024-06-14 20:51:28,676 - MyLogger - INFO - Epoch 25/50 for target channel RGB
+2024-06-14 20:52:17,407 - MyLogger - INFO - Training loss: 1.6549079523941204
+2024-06-14 20:52:18,704 - MyLogger - INFO - Validation loss: 3.300550750096639, Validation accuracy: 0.19555555555555557
+2024-06-14 20:52:18,704 - MyLogger - INFO - Epoch 26/50 for target channel RGB
+2024-06-14 20:53:07,090 - MyLogger - INFO - Training loss: 1.63129794499171
+2024-06-14 20:53:08,365 - MyLogger - INFO - Validation loss: 2.2507377825842965, Validation accuracy: 0.3888888888888889
+2024-06-14 20:53:08,365 - MyLogger - INFO - Epoch 27/50 for target channel RGB
+2024-06-14 20:53:56,731 - MyLogger - INFO - Training loss: 1.5951765735602124
+2024-06-14 20:53:58,015 - MyLogger - INFO - Validation loss: 2.0344142945607504, Validation accuracy: 0.43777777777777777
+2024-06-14 20:53:58,015 - MyLogger - INFO - Epoch 28/50 for target channel RGB
+2024-06-14 20:54:46,249 - MyLogger - INFO - Training loss: 1.578388049012345
+2024-06-14 20:54:47,546 - MyLogger - INFO - Validation loss: 1.9332680543263754, Validation accuracy: 0.4688888888888889
+2024-06-14 20:54:47,679 - MyLogger - INFO - Epoch 29/50 for target channel RGB
+2024-06-14 20:55:35,964 - MyLogger - INFO - Training loss: 1.5526226551712523
+2024-06-14 20:55:37,299 - MyLogger - INFO - Validation loss: 2.1124385966195, Validation accuracy: 0.3711111111111111
+2024-06-14 20:55:37,300 - MyLogger - INFO - Epoch 30/50 for target channel RGB
+2024-06-14 20:56:25,620 - MyLogger - INFO - Training loss: 1.5347772199534353
+2024-06-14 20:56:26,891 - MyLogger - INFO - Validation loss: 2.230739699469672, Validation accuracy: 0.3888888888888889
+2024-06-14 20:56:26,891 - MyLogger - INFO - Epoch 31/50 for target channel RGB
+2024-06-14 20:57:15,157 - MyLogger - INFO - Training loss: 1.5167761693638961
+2024-06-14 20:57:16,447 - MyLogger - INFO - Validation loss: 2.3412612130906845, Validation accuracy: 0.3844444444444444
+2024-06-14 20:57:16,448 - MyLogger - INFO - Epoch 32/50 for target channel RGB
+2024-06-14 20:58:04,855 - MyLogger - INFO - Training loss: 1.4947241657805264
+2024-06-14 20:58:06,178 - MyLogger - INFO - Validation loss: 1.9301495006349352, Validation accuracy: 0.44222222222222224
+2024-06-14 20:58:06,308 - MyLogger - INFO - Epoch 33/50 for target channel RGB
+2024-06-14 20:58:54,620 - MyLogger - INFO - Training loss: 1.478379618275368
+2024-06-14 20:58:55,947 - MyLogger - INFO - Validation loss: 1.9928906594382392, Validation accuracy: 0.4311111111111111
+2024-06-14 20:58:55,948 - MyLogger - INFO - Epoch 34/50 for target channel RGB
+2024-06-14 20:59:50,130 - MyLogger - INFO - Training loss: 1.4663649424666998
+2024-06-14 20:59:51,866 - MyLogger - INFO - Validation loss: 1.962551270061069, Validation accuracy: 0.4288888888888889
+2024-06-14 20:59:51,867 - MyLogger - INFO - Epoch 35/50 for target channel RGB
+2024-06-14 21:00:52,151 - MyLogger - INFO - Training loss: 1.434594806228002
+2024-06-14 21:00:53,930 - MyLogger - INFO - Validation loss: 2.0916613748338486, Validation accuracy: 0.42444444444444446
+2024-06-14 21:00:53,931 - MyLogger - INFO - Epoch 36/50 for target channel RGB
+2024-06-14 21:01:53,491 - MyLogger - INFO - Training loss: 1.417397596255339
+2024-06-14 21:01:55,211 - MyLogger - INFO - Validation loss: 2.5386184215545655, Validation accuracy: 0.36444444444444446
+2024-06-14 21:01:55,212 - MyLogger - INFO - Epoch 37/50 for target channel RGB
+2024-06-14 21:02:55,751 - MyLogger - INFO - Training loss: 1.408275571831403
+2024-06-14 21:02:57,464 - MyLogger - INFO - Validation loss: 1.9423006327946981, Validation accuracy: 0.46
+2024-06-14 21:02:57,464 - MyLogger - INFO - Epoch 38/50 for target channel RGB
+2024-06-14 21:03:56,981 - MyLogger - INFO - Training loss: 1.3881576378694693
+2024-06-14 21:03:58,831 - MyLogger - INFO - Validation loss: 2.035229116545783, Validation accuracy: 0.4444444444444444
+2024-06-14 21:03:58,831 - MyLogger - INFO - Epoch 39/50 for target channel RGB
+2024-06-14 21:04:58,230 - MyLogger - INFO - Training loss: 1.3846108822534549
+2024-06-14 21:04:59,895 - MyLogger - INFO - Validation loss: 2.1611995357937284, Validation accuracy: 0.45111111111111113
+2024-06-14 21:04:59,896 - MyLogger - INFO - Epoch 40/50 for target channel RGB
+2024-06-14 21:05:59,231 - MyLogger - INFO - Training loss: 1.3585939504937414
+2024-06-14 21:06:00,879 - MyLogger - INFO - Validation loss: 2.111768616570367, Validation accuracy: 0.39555555555555555
+2024-06-14 21:06:00,879 - MyLogger - INFO - Epoch 41/50 for target channel RGB
+2024-06-14 21:07:00,941 - MyLogger - INFO - Training loss: 1.3342516942161653
+2024-06-14 21:07:02,511 - MyLogger - INFO - Validation loss: 1.8959317212634617, Validation accuracy: 0.48
+2024-06-14 21:07:02,652 - MyLogger - INFO - Epoch 42/50 for target channel RGB
+2024-06-14 21:08:03,387 - MyLogger - INFO - Training loss: 1.3447056231478012
+2024-06-14 21:08:05,145 - MyLogger - INFO - Validation loss: 3.00571929719713, Validation accuracy: 0.3288888888888889
+2024-06-14 21:08:05,145 - MyLogger - INFO - Epoch 43/50 for target channel RGB
+2024-06-14 21:09:05,930 - MyLogger - INFO - Training loss: 1.3159215631778656
+2024-06-14 21:09:07,753 - MyLogger - INFO - Validation loss: 2.0122983662287393, Validation accuracy: 0.4288888888888889
+2024-06-14 21:09:07,753 - MyLogger - INFO - Epoch 44/50 for target channel RGB
+2024-06-14 21:10:07,440 - MyLogger - INFO - Training loss: 1.3082380675008256
+2024-06-14 21:10:09,040 - MyLogger - INFO - Validation loss: 2.10882276640998, Validation accuracy: 0.42
+2024-06-14 21:10:09,040 - MyLogger - INFO - Epoch 45/50 for target channel RGB
+2024-06-14 21:11:08,546 - MyLogger - INFO - Training loss: 1.2992002098126416
+2024-06-14 21:11:10,248 - MyLogger - INFO - Validation loss: 2.4077147314283582, Validation accuracy: 0.39111111111111113
+2024-06-14 21:11:10,248 - MyLogger - INFO - Epoch 46/50 for target channel RGB
+2024-06-14 21:12:09,820 - MyLogger - INFO - Training loss: 1.2920359940628643
+2024-06-14 21:12:11,479 - MyLogger - INFO - Validation loss: 1.9951401212480333, Validation accuracy: 0.4666666666666667
+2024-06-14 21:12:11,479 - MyLogger - INFO - Epoch 47/50 for target channel RGB
+2024-06-14 21:13:10,268 - MyLogger - INFO - Training loss: 1.2613735362093204
+2024-06-14 21:13:11,899 - MyLogger - INFO - Validation loss: 2.235485226313273, Validation accuracy: 0.44
+2024-06-14 21:13:11,900 - MyLogger - INFO - Epoch 48/50 for target channel RGB
+2024-06-14 21:14:11,817 - MyLogger - INFO - Training loss: 1.2601261716975178
+2024-06-14 21:14:13,447 - MyLogger - INFO - Validation loss: 1.8266223149829441, Validation accuracy: 0.4866666666666667
+2024-06-14 21:14:13,600 - MyLogger - INFO - Epoch 49/50 for target channel RGB
+2024-06-14 21:15:13,084 - MyLogger - INFO - Training loss: 1.247149143715974
+2024-06-14 21:15:14,758 - MyLogger - INFO - Validation loss: 2.106769938998752, Validation accuracy: 0.4288888888888889
+2024-06-14 21:15:14,759 - MyLogger - INFO - Epoch 50/50 for target channel RGB
+2024-06-14 21:16:14,478 - MyLogger - INFO - Training loss: 1.2326304819138683
+2024-06-14 21:16:16,177 - MyLogger - INFO - Validation loss: 2.2839362907409666, Validation accuracy: 0.3622222222222222
+2024-06-14 21:16:18,483 - MyLogger - INFO - Target channel: RGB
+Test loss: 1.8497877057393393, Test accuracy: 0.4888888888888889

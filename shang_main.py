@@ -17,7 +17,7 @@ if __name__=="__main__":
     batch_size=128
     num_workers=16
     num_classes=50
-    num_epochs=30
+    num_epochs=50
 
     logger.info(f'Batch size: {batch_size}')
     logger.info(f'num workers: {num_workers}')
