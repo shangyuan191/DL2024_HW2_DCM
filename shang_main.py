@@ -17,7 +17,7 @@ if __name__=="__main__":
     batch_size=128
     num_workers=16
     num_classes=50
-    num_epochs=50
+    num_epochs=10
 
     logger.info(f'Batch size: {batch_size}')
     logger.info(f'num workers: {num_workers}')
@@ -32,5 +32,6 @@ if __name__=="__main__":
 
     ## task 2
     train.task2_resnet34(logger,batch_size,num_workers,num_classes,device,num_epochs)
+    # train.task2_cool_model(logger,batch_size,num_workers,num_classes,device,num_epochs)
     
 

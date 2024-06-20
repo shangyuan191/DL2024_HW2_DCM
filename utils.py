@@ -52,7 +52,7 @@ def plot_result(epochs,train_losss,train_accuracys,val_losss,val_accuracys,chann
         plt.legend()
         
         plt.tight_layout()
-        plt.savefig(f'plot/{target_channel}_{channel_method}_result.png')
+        plt.savefig(f'plot/{target_channel}_{channel_method}_NumEpoch_{len(epochs)}_result.png')
         plt.close()
 
 def save_model(model,epoch,val_loss,val_accuracy,best_val_loss,channel_method,target_channel,model_path):
