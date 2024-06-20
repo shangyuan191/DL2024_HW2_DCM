@@ -107,12 +107,18 @@ def get_normalize_params(target_channel):
 def build_train_loader(batch_size,num_workers,target_channel,channel_method):
     mean, std = get_normalize_params(target_channel)
     image_dtype = torch.uint8
-    _transforms = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
+    _transforms_normal = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
                 v2.RandomHorizontalFlip(p=0.5),
                 v2.ToDtype(torch.float32, scale=True),
                 v2.Normalize(mean=mean, std=std),
                 v2.ToDtype(image_dtype, scale=True)]
-    _transforms = v2.Compose(_transforms)
+    _transforms_G=[v2.RandomResizedCrop(size=(224, 224)),v2.ToDtype(torch.float32, scale=True),
+                   v2.Normalize(mean=mean, std=std),
+                   v2.ToDtype(image_dtype, scale=True)]
+    _transforms = v2.Compose(_transforms_normal)
+    if channel_method=="task2_resnet34_model":
+        _transforms=v2.Compose(_transforms_G)
+        print("use G preprocessing")
 
     train_dataset=ImageDataset(txt_file='./dataset/train.txt',transform=_transforms,target_channel=target_channel,channel_method=channel_method)
     train_loader=DataLoader(train_dataset,batch_size=batch_size,shuffle=True,num_workers=num_workers)
@@ -122,12 +128,18 @@ def build_train_loader(batch_size,num_workers,target_channel,channel_method):
 def build_val_loader(batch_size,num_workers,target_channel,channel_method):
     mean, std = get_normalize_params(target_channel)
     image_dtype = torch.uint8
-    _transforms = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
+    _transforms_normal = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
                 v2.RandomHorizontalFlip(p=0.5),
                 v2.ToDtype(torch.float32, scale=True),
                 v2.Normalize(mean=mean, std=std),
                 v2.ToDtype(image_dtype, scale=True)]
-    _transforms = v2.Compose(_transforms)
+    _transforms_G=[v2.RandomResizedCrop(size=(224, 224)),v2.ToDtype(torch.float32, scale=True),
+                   v2.Normalize(mean=mean, std=std),
+                   v2.ToDtype(image_dtype, scale=True)]
+    _transforms = v2.Compose(_transforms_normal)
+    if channel_method=="task2_resnet34_model":
+        _transforms=v2.Compose(_transforms_G)
+        print("use G preprocessing")
 
     val_dataset=ImageDataset(txt_file='./dataset/val.txt',transform=_transforms,target_channel=target_channel,channel_method=channel_method)
     val_loader=DataLoader(val_dataset,batch_size=batch_size,shuffle=True,num_workers=num_workers)
@@ -139,12 +151,18 @@ def build_test_loader(batch_size,num_workers,target_channel,channel_method):
     if channel_method=="baseline_model":
         mean, std = get_normalize_params("RGB")
     image_dtype = torch.uint8
-    _transforms = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
+    _transforms_normal = [v2.RandomResizedCrop(size=(224, 224), antialias=True),
                 v2.RandomHorizontalFlip(p=0.5),
                 v2.ToDtype(torch.float32, scale=True),
                 v2.Normalize(mean=mean, std=std),
                 v2.ToDtype(image_dtype, scale=True)]
-    _transforms = v2.Compose(_transforms)
+    _transforms_G=[v2.RandomResizedCrop(size=(224, 224)),v2.ToDtype(torch.float32, scale=True),
+                   v2.Normalize(mean=mean, std=std),
+                   v2.ToDtype(image_dtype, scale=True)]
+    _transforms = v2.Compose(_transforms_normal)
+    if channel_method=="task2_resnet34_model":
+        _transforms=v2.Compose(_transforms_G)
+        print("use G preprocessing")
 
     test_dataset=ImageDataset(txt_file='./dataset/test.txt',transform=_transforms,target_channel=target_channel,channel_method=channel_method)
     test_loader=DataLoader(test_dataset,batch_size=batch_size,shuffle=True,num_workers=num_workers)
